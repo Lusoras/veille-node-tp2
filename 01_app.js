@@ -111,20 +111,6 @@ req.body._id = 	ObjectID(req.body._id)
 })
 
 
-////////////////////////////////////////  Route /detruire
-// app.get('/detruire/:id', (req, res) => {
-//  console.log('route /detruire')
-//  // console.log('util = ' + util.inspect(req.params));	
-//  var id = req.params.id
-//  console.log(id)
-//  db.collection('adresse')
-//  .findOneAndDelete({"_id": ObjectID(req.params.id)}, (err, resultat) => {
-
-// if (err) return console.log(err)
-//  res.redirect('/adresse')  // redirige vers la route qui affiche la collection
-//  })
-// })
-
 
 ///////////////////////////////////////////////////////////   Route /trier
 app.get('/trier/:cle/:ordre', (req, res) => {
