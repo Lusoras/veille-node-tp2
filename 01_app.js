@@ -175,7 +175,7 @@ console.log('route /ajax_ajouter')
  })
 })
 
-//chat
+//Affiche le chat
 app.get('/chat', (req, res) =>{
 	res.render("socket_vue.ejs");
 })
